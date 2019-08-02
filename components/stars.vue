@@ -13,13 +13,13 @@
 			</view> -->
 			<image 
 			v-for="yellow in yellowStar" 
-			src="../../static/icos/star-yellow.png" 
+			src="../../static/icos/star-yellow.png"
 			class="star-icon"></image>
 			<image 
 			v-for="gray in grayStar"
-			src="../../static/icos/star-gray.png" 
+			src="../../static/icos/star-gray.png"
 			class="star-icon"></image>
-			<view class="movie-score" v-if="visible">
+			<view class="movie-score" v-if="showScore == 1">
 				{{innerScore}}
 			</view>
 		</view>
@@ -37,7 +37,7 @@
 		},
 		props: {
 			innerScore: 0,
-			visible: false
+			showScore: 0
 		},
 		created() {
 			var tempScore = 0;

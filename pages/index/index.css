@@ -60,3 +60,74 @@
 	color: grey;
 	margin-left: 8upx;
 }
+/* 热门预告 */
+.hot-trailers {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0upx 20upx 20upx 20upx;
+}
+.hot-movie-single {
+	width: 350upx;
+	height: 220upx;
+	margin-top: 10upx;
+}
+
+.guess-u-like {
+	display: flex;
+	flex-direction: column;
+}
+.single-like-movie {
+	display: flex;
+	flex-direction: row;
+	padding: 30upx 20upx;
+	justify-content: space-between;
+
+}
+.like-movie-poster {
+	width: 180upx;
+	height: 240upx;
+	border-radius: 3%;
+	
+}
+.movie-desc {
+	width: 340upx;
+	display: flex;
+	flex-direction: column;
+}
+.movie-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.basic-info {
+	color: #808080;
+	font-size: 14px;
+}
+.release-date {
+	color: #808080;
+	font-size: 14px;
+}
+.movie-oper {
+	width: 140upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-left: dashed 2px;
+	border-left-color: lightgray;
+}
+.praise-icon {
+	width: 50upx;
+	height: 50upx;
+	align-self: center;
+}
+.praise-me {
+	color: #feab2a;
+	font-size: 14px;
+	align-self: center;
+}
+.animation-opaticty {
+	font-weight: bold;
+	opacity: 0;
+}
