@@ -1,6 +1,8 @@
 <template>
-	<view class="page">
-		这是个人页面
+	<view class="page page-fill">
+		<view class="header">
+			
+		</view>
 	</view>
 </template>
 
@@ -17,6 +19,7 @@
 	}
 </script>
 
-<style>
-
-</style>
+<style> 
+	@import url("me.css");
+	
+</style> 
